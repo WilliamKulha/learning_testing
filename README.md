@@ -1,10 +1,10 @@
-# **[Enter Project Name]**
+# **Learning Unit Testing (Triangle Tracker)**
 
-#### By William Chu
+#### By William Kulha
 
 ## Description
 
-[Enter description]
+A simple refactor of a previous project that I used to practice unit testing and using webpack.
 
 ## Specifications
 
@@ -14,10 +14,14 @@
 
 ## Setup/Installation Requirements
 
-* To view project code, _clone repository from_ https://github.com/william-chu/projectname
-* To view project, _open in web browser_ http://william-chu.github.io/projectname
+* To view project code, _clone repository from_ https://github.com/zangiboy/learning_testing
+* To install the project on your own machine, clone the repository from command line <code>$ git clone https://github.com/zangiboy/learning_testing.git</code>
+* Navigate to the projects directory using CLI and install dependencies <code>npm install</code>
+* Open the index.html from the dist/ directory with the browser of your choice.
 
 ## Known Bugs
+
+None
 
 ## Technologies Used
 
@@ -33,6 +37,6 @@
 
 ## License
 
-* GPL
+* MIT
 
-William Chu © 2018
+William Kulha © 2018
