@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Triangle Tracker</h1>
+      </div>
+      <div id="triangle-form">
+        <form id="user_input">
+          <div class="form-group">
+            <label for="side1">Length of the first side:</label>
+            <input type="number" class="form-control" id="side1" required>
+          </div>
+          <div class="form-group">
+            <label for="side2">Length of the second side:</label>
+            <input type="number" class="form-control" id="side2" required>
+          </div>
+          <div class="form-group">
+            <label for="side3">Length of the third side:</label>
+            <input type="number" class="form-control" id="side3" required>
+          </div>
+          <button class="btn btn-primary" type="submit">Analyze</button>
+        </form>
+      </div> 
+      <div id="results" class="text-center">
+        <h3><span class="triangle_type"></span></h3>
+        <span class="triangle-image"></span><br>
+        <button class="btn btn-info" type="button" id="restart">Check another triangle</button>
+      </div>     
+    </div>   
+  </body>
+</html>
